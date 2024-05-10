@@ -1,4 +1,4 @@
- # basic intro to Callbacks and why we need it
+ # Basic intro to Callbacks and why we need it
 
  when we have two functions which does some thing and one is depending on other , using callback we make sure that after function1 ,the function2 runs  ..by pasing function2 in function1 as callback ........
 
