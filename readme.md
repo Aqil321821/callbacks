@@ -48,6 +48,6 @@ so what happens is that getPosts() fire off before createPosts() so on the DOM w
 
 
 
-# Now to overcome this issue we will make sure that  getPosts() will run after createPos()
+# Now to overcome this issue we will make sure that  getPosts() will run after createPost()
 
 In our script we pass a cb into createPost() where we pass our function getPosts() in and get invoked in the createPost() that way we make sure that it will run after createPost()...
